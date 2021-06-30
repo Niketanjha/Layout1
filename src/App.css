@@ -44,7 +44,7 @@ li a{
   float: left;
   max-width: 100%;
   width: 25%;
-  padding: 30px;
+  padding: 47px;
   margin-bottom: -7%;
 }
 
@@ -55,11 +55,14 @@ li a{
 
 .imageGray{
   background-color: #f1f1f1;
-  width: 250px;
+  width: 320px;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 150px;
+  height: 140px;
+}
+.footer1{
+  padding:100px;
 }
 /*
 @media screen and (max-width: 600px) {

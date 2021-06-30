@@ -47,9 +47,8 @@ class App extends React.Component{
             );
           })}
         </div>
-        <footer><p>copyright &copy; your website 2014</p></footer>
-        <div className="footer">
-          <p>copyright &copy; your website 2014</p>
+        <div className="footer1">
+          <p style={{paddingTop:"50px"}}>copyright &copy; your website 2014</p>
         </div>
       </div>
       
