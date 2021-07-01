@@ -3,7 +3,7 @@
   margin:0;
   padding:0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #222222;
 }
 li{
   float: left;
@@ -24,22 +24,22 @@ li a{
 #h1Heading{ 
   display: inline-block;  
 }
-#secondaryText{
-  color: #333333;
-  font-weight: 180;
-  color:#CCCCCC;
-
+.secondaryText{
+  color: #CCCCCC;
+  font-size: 20px;
+  margin-left: 5px;
+  font-family: sans-serif;
 }
 .pageHeading{
-  display: flex;
-  margin-left: 60px;
+  padding-top: 30px;
+  margin-left: 110px;
 }
 .row{
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
 }
+
 .column{
   float: left;
   max-width: 100%;
@@ -49,24 +49,34 @@ li a{
 }
 
 .gridMain{
-  margin-right: 60px;
-  margin-left: 60px; 
+  margin-right: 110px;
+  margin-left: 90px; 
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: space-around;
+  grid-gap: 40px;
 }
-
+.card{
+  padding-left: 5%;
+}
 .imageGray{
-  background-color: #f1f1f1;
-  width: 320px;
+  background-color: #CCCCCC;
+  max-width: 350px;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 140px;
+  height: 200px;
 }
-.footer1{
-  padding:100px;
+.footer{
+  margin-top: 3%;
+
 }
-/*
+
+
 @media screen and (max-width: 600px) {
-  .column {
+  .gridMain {
     width: 50%;
     display: block;
     padding: 0;
@@ -74,11 +84,10 @@ li a{
 }
 
 @media screen and (max-width: 1350px) {
-  .column {
+  .gridMain{
     width: 75%;
     display: block;
     margin-right: auto;
     margin-left: auto;
   }
 }
-*/
